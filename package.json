@@ -1,0 +1,22 @@
+{
+  "name": "tomanpay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^8.2.3",
+    "@types/node": "^16.11.13",
+    "axios": "^0.24.0",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.4.0",
+    "typescript": "^4.5.4"
+  }
+}
