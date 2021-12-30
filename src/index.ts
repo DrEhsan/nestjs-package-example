@@ -1,2 +1,2 @@
-export * from './toman-pay.module';
-export * from './toman-pay.service';
+export * from './gladiator.module';
+export * from './gladiator.service';
